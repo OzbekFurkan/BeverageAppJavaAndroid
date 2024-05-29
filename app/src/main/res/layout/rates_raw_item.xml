@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/content_view"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="79dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="10sp"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/rate1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="24dp"
+        app:srcCompat="@drawable/star_empty_icon_3_2" />
+
+    <ImageButton
+        android:id="@+id/rate2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="24dp"
+        app:srcCompat="@drawable/star_empty_icon_3_2" />
+
+    <ImageButton
+        android:id="@+id/rate3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="24dp"
+        app:srcCompat="@drawable/star_empty_icon_3_2" />
+
+    <ImageButton
+        android:id="@+id/rate4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="24dp"
+        app:srcCompat="@drawable/star_empty_icon_3_2" />
+
+    <ImageButton
+        android:id="@+id/rate5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="24dp"
+        app:srcCompat="@drawable/star_empty_icon_3_2" />
+
+
+        <ImageButton
+            android:id="@+id/delete_rate"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="35dp"
+            android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+</LinearLayout>
